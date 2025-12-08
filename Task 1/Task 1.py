@@ -16,7 +16,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 # ==========================================
 # 1. Configuration & Constants
 # ==========================================
-IMG_DIR = 'cnn_dataset/images/'
+IMG_DIR = 'images/'
 LABELS_FILE = 'labels.csv'
 IMG_SIZE = (32, 32)
 BATCH_SIZE = 64  # [cite: 87]
